@@ -1,0 +1,30 @@
+{
+  "name": "cypress-cucumber-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisandre69/cypress-Cucumber-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisandre69/cypress-Cucumber-poc/issues"
+  },
+  "homepage": "https://github.com/luisandre69/cypress-Cucumber-poc#readme",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^2.7.1"
+  },
+    "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": true
+    }
+}
